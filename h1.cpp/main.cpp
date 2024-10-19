@@ -11,5 +11,6 @@ int main()
     cout<<"enter your b number : ";
     cin>>b;
     cout<<"a = " << a <<"\n"<<"b = " <<b<< endl;
+    cout<<"==============";
     return 0;
 }
