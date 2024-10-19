@@ -10,6 +10,7 @@ int main()
     cin>>a;
     //cout<<endl;
     cout<<"enter your b number : ";
+    cout<<"b number entered";
     cin>>b;
     cout<<"a = " << a <<"\n"<<"b = " <<b<< endl;
     calcSum(a,b);
