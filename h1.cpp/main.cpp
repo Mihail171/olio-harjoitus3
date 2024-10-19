@@ -1,8 +1,6 @@
 #include <iostream>
+#include "functiot.h"
 
-using namespace std;
-void calcSum(float a,float b);
-void calcDiv(float a,float b);
 int main()
 {
     float a,b;
@@ -17,18 +15,4 @@ int main()
     calcDiv(a,b);
     return 0;
 }
-void calcSum(float a,float b){
-    int sum=a+b;
-    cout<<"sum : "<<sum<<endl;
-}
-void calcDiv(float a,float b){
 
-    if(a>0){
-        float div=a/b;
-    cout<<"div : "<<div<<endl;
-    }
-    else {
-        cout<<"virhe";
-    }
-
-}
