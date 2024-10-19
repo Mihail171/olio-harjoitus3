@@ -4,5 +4,9 @@
 using namespace std;
 void calcSum(float a,float b);
 void calcDiv(float a,float b);
+int retSum(int ,int );
+void printResult(int(*func)(int,int),int x,int y);
+void printResult2(int(*func)(int,int),int x,int y);
+float retDiv(int,int);
 
 #endif // FUNCTIOT_H
