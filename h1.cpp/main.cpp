@@ -18,7 +18,7 @@ int main()
     float div =retDiv(a,b);
     cout<<"div : "<<div<<endl;
     printResult(retSum,a,b);
-   // printResult2(retDiv,a,b);
+    printResult2(retDiv,a,b);
 
     return 0;
 }

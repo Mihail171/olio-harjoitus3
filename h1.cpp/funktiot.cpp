@@ -19,6 +19,7 @@ int retSum(int a,int b){
     return a+b;
 }
 float retDiv(int a,int b){
+
     if(a!=0){
     //float div=a/b;
         return static_cast<float>(a/b);
@@ -32,7 +33,7 @@ void printResult(int(*func)(int,int),int x,int y){
     cout<<"result : "<<result<<endl;
 }
 void printResult2(float(*func)(int,int),int x,int y){
-    float result= func(x,y);
-    cout<<"result : "<<result<<endl;
+    float result2= func(x,y);
+    cout<<"result : "<<result2<<endl;
 }
 
