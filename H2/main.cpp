@@ -1,5 +1,6 @@
 #include <iostream>
 #include "car.h"
+#include "rectangle.h"
 using namespace std;
 
 int main()
@@ -10,6 +11,12 @@ int main()
     myCar.setYearModel(2016);
 
     myCar.printData();
+    cout<<" seuraava luokka "<<endl;
+    Rectangle myRectangle;
+    myRectangle.setHeight(15);
+    myRectangle.setWidth(5);
+    cout<<"Area : "<<myRectangle.getArea()<<
+        "\nCircum : "<<myRectangle.getCircum()<<endl;
 
 
 }

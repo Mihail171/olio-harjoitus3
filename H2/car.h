@@ -17,8 +17,8 @@ public:
     void setYearModel(int newYearModel);
     void printData(){
         cout<<"\nbrand : "<<brand<<"\nmodel :"<<model<<"\nyearModel : "<<yearModel<<endl;
-
     }
+
 };
 
 #endif // CAR_H
