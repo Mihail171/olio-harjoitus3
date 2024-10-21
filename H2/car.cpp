@@ -19,4 +19,6 @@ void Car::setYearModel(int newYearModel)
 
 
 
-Car::Car() {}
+Car::Car() {
+    cout<<"\nmuodostinta kutsuttu"<<endl;
+}

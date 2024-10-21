@@ -6,8 +6,10 @@ CONFIG -= qt
 SOURCES += \
         car.cpp \
         main.cpp \
-        rectangle.cpp
+        rectangle.cpp \
+        student.cpp
 
 HEADERS += \
     car.h \
-    rectangle.h
+    rectangle.h \
+    student.h
