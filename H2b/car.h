@@ -13,8 +13,9 @@ private:
     int yearModel;
 
 public:
-    Car(string,string,int);
+    Car(string brand1,string model1,int yearModel1);
     void printData();
+    ~Car();
 };
 
 #endif // CAR_H
