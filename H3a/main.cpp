@@ -9,7 +9,7 @@ int main()
     chef.makeSalad();
     chef.makeSoup();
     cout<<"toinen objekti kutsutaan"<<endl;
-    ItalialainenChef  chef2("Bourdain Authony");
+    ItalialainenChef  chef2("Bourdain Authonyo");
     chef2.makeSalad();
     chef2.makeSoup();
     chef2.makePasta();
