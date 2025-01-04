@@ -7,6 +7,8 @@ MainWindow::MainWindow(QWidget *parent)
 {
     connect(ui->btnCount, &QPushButton::clicked, this, &MainWindow::on_btnCount_clicked);
     connect(ui->btnReset, &QPushButton::clicked, this, &MainWindow::on_btnReset_clicked);
+     //  connect(ui->btnCount,SIGNAL(QPushButton::clicked),this,SLOT(on_btnCount_clicked));
+    //connect(ui->btnRest,SIGNAL (QPushButton::clicked), this, SLOT(on_btnRest_clicked));
     ui->setupUi(this);
 }
 
